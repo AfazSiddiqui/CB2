@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    /* border: 2px black ridge; */
+    width: 100%;
+}
+.button{
+    background-color:  transparent;
+    border: 1px black ridge;
+    color: rgb(95, 93, 93);
+    padding: 3px 7px;
+    margin: 8px 50px;
+    font-weight: bold ;
+    cursor: pointer;
+    letter-spacing: 1px
+}
+.bold{
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    padding: 0px 8px;
+    font-weight: bold
+}
+.hg{
+    color: rgb(95, 93, 93);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 3px;
+    font-size: 12px;
+    margin: 16px;
+    letter-spacing: 2px;
+}
+.abc{
+    display: flex;
+    justify-content: flex-end;
+    display: inline;
+    padding-left: 170px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+.link{
+    /* text-decoration: none; */
+    display: inline;
+    color: rgb(95, 93, 93);
+    font-size: 12px;
+    padding: 90px;
+    letter-spacing: 1px;
+}
+.maindiv{
+    height: 650px;
+    width: 100%;
+    border: 0px  transparent ridge;
+    background-image: url(/images/Springalchemy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.card-offers{
+    color: rgb(249, 252, 252);
+    font-size: 12px;
+    text-decoration: none;
+}
+.button-1{
+    display: inline;
+    display: flex;
+    align-content: center;
+    background-color: transparent;
+    border: 1px white ridge;
+    font-weight: 40px;
+    padding: 10px 10px;
+}
+.nav-head1{
+    display: inline;
+    margin: 0px 0px;
+}
+.input{
+    width: 240px;
+    height: 35px;
+}
+.cb2{
+    display: inline;
+    display: flex;
+    align-content: space-between;
+}
