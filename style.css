@@ -1,0 +1,676 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  transparent;
+    border: 1px black ridge;
+    color: rgb(95, 93, 93);
+    padding: 3px 7px;
+    margin: 8px 00px;
+    margin-left: 50px;
+    margin-right: 15px;
+    font-weight: bold ;
+    cursor: pointer;
+    letter-spacing: 1px
+}
+
+.bold{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(95, 93, 93);
+    padding: 0px 8px;
+    font-weight: bold
+}
+
+.hg{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(95, 93, 93);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 3px;
+    font-size: 12px;
+    margin: 10px;
+    letter-spacing: 2px;
+}
+
+.bar{
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.discount{
+    padding-left: 100px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.link{
+    color: black;
+    font-size: 11px;
+    padding: 61px;
+    letter-spacing: 1px;
+}
+
+.usa{
+    height: 15px;
+}
+
+.pause{
+    margin-left: 185px;
+}
+.circlebt{
+    width: 7px;
+    height: 7px;
+    border: 1px solid;
+    border-radius: 50%;
+    /* padding: 15px; */
+    background-color: transparent;
+    /* position: fixed; */
+}
+
+.div{
+    /* border: 2px black ridge; */
+    width: 100%;
+    box-shadow: 10px;
+}
+
+.divcont{
+    height: 730px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/Home_dec_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 0px 250px rgba(0, 0, 0, 0.384) inset;
+}
+
+.input{
+    width: 275px;
+    height: 38px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px gainsboro ridge;
+    padding-left: 20px;
+    padding-top: 2px;
+    margin-left: 45px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.mgglass{
+    position: absolute;
+}
+
+.button-cb2{
+    /* display: inline; */
+    background-color:  transparent;
+    border: 3px white ridge;
+    color: white;
+    padding: 4px 8px;
+    margin-top: -70px;
+    margin-bottom: 30px;
+    font-weight: bold ;
+    font-size: 22px;
+    cursor: pointer;
+    letter-spacing: 1px
+}
+
+/* .bar1{
+    font-size: 20px;
+} */
+
+.offers{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* word-spacing: 6px; */
+}
+
+.banner-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.category{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding-top: 17px;
+}
+
+.collection{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 38px;
+    letter-spacing: 10px;
+    word-spacing: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.arrivals{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.secondcont{
+    height: 730px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/010223_home_d_upholstery_re_2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3px;
+}
+
+.event{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 37px;
+    letter-spacing: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.disc1{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 29px;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+}
+
+.furniture{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 11px;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sale{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.thirdcont{
+    height: 250px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/Markdowns_D.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3px;
+}
+
+.markdowns{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    letter-spacing: 6px;
+    padding-top: 87px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+    word-spacing: 2px;
+    padding-top: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.forthcont{
+    height: 720px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/010223_Home_D_Dining.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3px;
+}
+
+.dine{
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    padding-top: 130px;
+    letter-spacing: 7px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop-dine{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 15px;
+    padding-top: 18px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fifthcont{
+    height: 710px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/D_space_lifts_2\ -\ Copy.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3px;
+}
+
+.animate{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 70px;
+    text-decoration: none;
+    letter-spacing: 7px;
+    padding-top: 245px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.updates{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sixthcont{
+    height: 720px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/122922_Bedroom_D.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3px;
+}
+
+.bed{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 8px;
+    margin-left: 60px;
+    padding-top: 85px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.neutral{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop-trend{
+    /* display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap; */
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-left: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.seventhcont{
+    height: 720px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/Lighting_D.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3px;
+}
+
+.illuminate{
+    color: black;
+    text-decoration: none;
+    font-size: 37px;
+    letter-spacing: 3px;
+    margin-left: 320px;
+    /* margin-top: 385px;
+    margin-bottom: 10px */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.shop-light{
+    color: black;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 320px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop-lights{
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.eighthcont{
+    height: 720px;
+    width: 100%;
+    border: 0px transparent ridge;
+    background-image: url(/images/010223_Home_D_Pillow_re.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 3px;
+}
+
+.finest{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 10px;
+    text-decoration: none;
+    padding-top: 75px;
+    margin-right: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.shop-pillows{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 15px;
+    word-spacing: 1px;
+    padding-top: 18px;
+    margin-right: 389px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#radar{
+    margin-top: 72px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-left: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3::after{
+    content:  "";
+    display: block;
+    width: 1060px;
+    height: 2px;
+    background: #000;
+    position: absolute;
+    right: 4.3%;
+    top: 50%;
+}
+
+.card{
+    height: 480px;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 68px;
+    justify-items: center;
+    column-gap: 19px;
+}
+
+.card-1{
+    height: 12.5cm;
+    width: 7.7cm;
+}
+
+.card-2{
+    height: 12.5cm;
+    width: 7.7cm;
+}
+
+.card-3{
+    height: 12.5cm;
+    width: 7.7cm;
+}
+
+.card-4{
+    height: 12.5cm;
+    width: 7.7cm;
+}
+
+.img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.h4{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.par{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: black
+}
+
+.para{
+    margin-top: 8px;
+}
+
+.c2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 65px;
+    margin-right: 41px;
+    margin-top: 25px;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+    height: 525px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 20px;
+}
+
+.i1{
+    border-bottom: 2px black ridge;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    padding-top: 40px;
+}
+
+.a1{
+    color: black;
+}
+
+.bar-g{
+    font-size: 30px;
+}
+
+.icons{
+    word-spacing: 12px;
+    padding-top: 20px;
+}
+
+.p1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.a2{
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.a3{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a4{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.a6{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.a5{
+    color: black;
+    text-decoration: none; 
+}
+
+.p2{
+    margin-top: 75px;
+    font-size: 12px;
+}
+
+.p2-1{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.d1{
+    margin-left: 60px;
+    margin-top: 75px;
+}
+
+.d5{
+    margin-right: 60px;
+}
+
+.l1{
+    padding-top: 16px;
+    padding-bottom: 40px;
+    list-style: none;
+}
+
+.a3{
+    margin-top: 10px;
+}
+
+.la{
+    padding-top: 10px;
+}
+
+.img1{
+    padding-left: 15px;
+}
+
+.d8{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+}
+
+.p4{
+    font-size: 13px;
+}
+
+.p5{
+    font-size: 12px;
+}
+
+.a5{
+    font-size: 13px;
+    padding: 3px;
+    word-spacing: 1px;
+}
+
+.a6{
+    padding: 3px;
+    word-spacing: 2px;
+}
+
+.a6-1{
+    font-size: 13px;
+}
+
+.d6{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+}
+
+.d7{
+    /* display: flex;
+    justify-content: center; */
+    margin-left: 400px;
+}
+
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(187, 127, 127, 0.979);
+}
+
+::-webkit-scrollbar-thumb{
+    background: #000000de;
+    border-radius: 10px;
+}
